@@ -1,0 +1,27 @@
+{
+  "name": "stack-svg",
+  "version": "1.0.3",
+  "description": "A module to convert icomoon symbol-defs.svg to a svg stack with fragments for usage in <img src='' />, background-image, mask-image, ...",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "stack-svg": "./bin/stack-svg.js"
+  },
+  "keywords": [
+    "icomoon",
+    "svgstack",
+    "svg fragments",
+    "svg fragment identifiers",
+    "svg sprite",
+    "svg-stack",
+    "stack svg"
+  ],
+  "preferGlobal": true,
+  "author": "David Verhulst",
+  "license": "ISC",
+  "dependencies": {
+    "pretty-data": "^0.40.0"
+  }
+}
