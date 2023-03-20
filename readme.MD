@@ -1,18 +1,19 @@
 # STACK-SVG
 
-A Node module to convert icomoon symbol-defs.svg to a svg stack with fragments for usage in <img  src=''  />, background-image, mask-image, ...
+A Node module to convert icomoon symbol-defs.svg to an svg stack accesible with fragment identifiers for usage in img-src, background-image, mask-image,...
+Every svg can be accessed, sized and colored seperatly.
 
 [Link to icomoon](https://www.icomoon.io)
 
 ## Installation
 
-First install the module globally with the following command:
+First install the module globally with the following cli command in your favorite terminal:
 
     npm i -g stack-svg
 
 ## Usage
 
-Than you can convert your downloaded icomoon 'symbol-defs.svg' using the following command.
+After installation you can convert your downloaded icomoon 'symbol-defs.svg' using the following command.
 
     stack-svg ./symbol-defs.svg ./icons/icons.svg
 
@@ -41,3 +42,5 @@ Than you can convert your downloaded icomoon 'symbol-defs.svg' using the followi
         @include icon("icon-chevron", #f00, 4.4rem);
         transition: all 200ms;
     }
+
+icon-chevron is the name of the icon given by icomoon.
