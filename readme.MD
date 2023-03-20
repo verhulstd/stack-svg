@@ -28,8 +28,6 @@ Than you can convert your downloaded icomoon 'symbol-defs.svg' using the followi
         -webkit-mask-size: contain;
         mask-size: contain;
         background-color: $color;
-        width: $size;
-        height: $size;
     }
 
 ## sass usage:
