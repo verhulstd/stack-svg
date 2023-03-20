@@ -14,4 +14,32 @@ First install the module globally with the following command:
 
 Than you can convert your downloaded icomoon 'symbol-defs.svg' using the following command.
 
-    stack-svg ./symbol-defs.svg ./output.svg
+    stack-svg ./symbol-defs.svg ./icons/icons.svg
+
+## sass mixin:
+
+    @mixin icon($id, $color: black, $size: 32px) {
+        width: $size;
+        height: $size;
+        -webkit-mask-image: url('./icons/icons.svg#{"#"}#{$id}');
+        mask-image: url('./icons/icons.svg#{"#"}#{$id}');
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        -webkit-mask-size: contain;
+        mask-size: contain;
+        background-color: $color;
+        width: $size;
+        height: $size;
+    }
+
+## sass usage:
+
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: 11px;
+        @include icon("icon-chevron", #f00, 4.4rem);
+        transition: all 200ms;
+    }
