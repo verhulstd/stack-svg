@@ -3,7 +3,7 @@
 A Node module to convert icomoon symbol-defs.svg to an svg stack accessible with fragment identifiers for usage in img-src, background-image, mask-image,...
 Every SVG can be accessed, sized and colored separately.
 
-[Link to icomoon](https://www.icomoon.io){:target="\_blank"}
+[Link to icomoon](https://www.icomoon.io)
 
 ## Installation
 
