@@ -1,7 +1,7 @@
 # STACK-SVG
 
 A Node module to convert icomoon symbol-defs.svg to an svg stack accesible with fragment identifiers for usage in img-src, background-image, mask-image,...
-Every svg can be accessed, sized and colored seperatly.
+Every svg can be accessed, sized and colored separately.
 
 [Link to icomoon](https://www.icomoon.io)
 
